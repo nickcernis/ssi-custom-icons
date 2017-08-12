@@ -24,7 +24,7 @@ add_filter( 'simple_social_default_profiles', __NAMESPACE__ . '\add_new_icons' )
  * @return array
  */
 function add_new_icons( $icons ) {
-	$new_icons = include 'config.php';
+	$new_icons = include __DIR__ . '/config.php';
 
 	foreach ( $new_icons as $icon ) {
 		$icons[ $icon['short_name'] ] = [
@@ -44,7 +44,7 @@ add_filter( 'simple_social_default_styles', __NAMESPACE__ . '\set_icon_defaults'
  * @return array
  */
 function set_icon_defaults( $defaults ) {
-	$new_icons = include 'config.php';
+	$new_icons = include __DIR__ . '/config.php';
 
 	foreach ( $new_icons as $icon ) {
 		$defaults[ $icon['short_name'] ] = $icon['default'];
