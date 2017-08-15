@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Simple Social Icons Custom
  * Description: Adds custom icons to Simple Social Icons.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Plugin URI:  https://github.com/nickcernis/ssi-custom-icons/
  * Author:      Nick Cernis
  * Author URI:  https://github.com/nickcernis/
