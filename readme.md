@@ -2,7 +2,9 @@
 
 A plugin template showing how to add custom icons to the [Simple Social Icons](https://wordpress.org/plugins/simple-social-icons/) plugin.
 
-The plugin adds a Spotify, Codepen, and Etsy icon as examples.
+The is a separate plugin thta adds a Spotify, Codepen, and Etsy icon as examples. You can modify the plugin code further to add your own icons.
+
+First, install and activate [Simple Social Icons](https://wordpress.org/plugins/simple-social-icons/) and [Simple Social Icons Custom](https://github.com/nickcernis/ssi-custom-icons/archive/master.zip). You can then edit Simple Social Icons Custom as follows:
 
 ## How to add an icon
 
