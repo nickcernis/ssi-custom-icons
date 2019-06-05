@@ -35,4 +35,11 @@ return [
 		'path'         => esc_url( plugin_dir_url( __FILE__ ) . 'icons/custom.svg#social-codepen' ),
 		'default'      => '',
 	],
+	[
+		'label'        => __( 'Goodreads', 'ssi-custom-icons' ),
+		'widget_label' => __( 'Goodreads URI', 'ssi-custom-icons' ),
+		'short_name'   => 'goodreads',
+		'path'         => esc_url( plugin_dir_url( __FILE__ ) . 'icons/custom.svg#social-goodreads' ),
+		'default'      => '',
+	],
 ];
